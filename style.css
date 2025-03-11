@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #03410d;
+    --color-secondary: #a1a1a1a8;
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
     --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-text:  #044469;;
     --color-white: #FFFFFF;
 }
 
@@ -136,10 +136,14 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #044469;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+    background-color: var(--color-white); /* Color de fondo */
+    border: 1px solid; /* Borde alrededor de la caja */
+    padding: 10px; /* Espaciado interno */
+    border-radius:  20px;	
 }
 
 /* Botón de sortear título */
@@ -159,4 +163,19 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+.lista-container {
+    border: 1px solid #ccc; /* Borde alrededor de la caja */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 20px; /* Espaciado superior */
+    background-color: var(--color-white); /* Color de fondo */
+    border-radius:  20px;	
+    color: #044469;
+}
+
+.lista-title {
+    font-size: 1.2em; /* Tamaño de fuente para el título */
+    margin-bottom: 10px; /* Espaciado inferior */
+    font-family: "Inter", sans-serif;
+    
 }
